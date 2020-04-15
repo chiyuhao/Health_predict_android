@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:layout_weight="0.39"
+        android:gravity="center"
+        android:text="帮助\n\n本应用通过用户上传食物图片的时间来推断用户的饮食规律，进而给出健康的饮食时间。\n\n
+1.用户选择拍照或图片后点击上传按钮，图片将上传至服务器端，服务器会判断用户上传的图片是否是食物，如果是食物则会记录在用户的饮食时间内，通过总结用户之前全部时间的饮食规律给出饮食时间推荐\n\n
+2.用户可以选择登录或注册按进行登录，注意用户名或密码不能为中文字符"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20pt"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/m_Main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:background="#ffcccccc"
+            android:gravity="center"
+            android:text="主页"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/h_Help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:background="#ffcccccc"
+            android:gravity="center"
+            android:text="帮助"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/u_User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:background="#ffcccccc"
+            android:gravity="center"
+            android:text="用户"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

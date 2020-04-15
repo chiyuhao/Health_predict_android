@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="20pt"
+       android:background="#ffffff"
+       android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Using"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:text="使用指南"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+       
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/Intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="应用简介"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="270pt"
+       android:background="#ffffff"
+       android:orientation="vertical" >
+
+
+
+ 
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/m_Main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:background="#ffcccccc"
+            android:gravity="center"
+            android:text="主页"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/h_Help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:background="#ffcccccc"
+            android:gravity="center"
+            android:text="帮助"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/u_User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:background="#ffcccccc"
+            android:gravity="center"
+            android:text="用户"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
